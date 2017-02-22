@@ -18,7 +18,6 @@ public class FileCopy {
 			fo = new FileOutputStream(new File("E:/t2.txt"));
 			
 			try {
-				
 				while((numberRead =fi.read(bt))!=-1 ){
 					fo.write(bt, 0, numberRead);
 				}
