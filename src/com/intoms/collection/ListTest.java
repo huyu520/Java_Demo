@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.ListIterator;
 
 /**
  *  CopyRight by 2016 Mfish
@@ -17,7 +18,8 @@ import java.util.List;
  */
 public class ListTest {
 	public static void main(String[] args) {
-		test1();
+//		test1();
+		testListItertator();
 	}
 	
 	public static void test1(){
@@ -46,5 +48,23 @@ public class ListTest {
 		System.out.println();
 		List<Object> sssss= Arrays.asList(arr);
 		System.out.println(sssss);
+	}
+	
+	public static void testListItertator(){
+		List<String> list  = new ArrayList<>() ;
+		list.add("123");
+		list.add("556");
+		list.add("1223");
+		list.add("1123");
+		System.out.println(list);
+		ListIterator<String> it = list.listIterator() ;
+		while(it.hasNext()){
+			String s = it.next() ;
+			if(s.equals("123")){
+				it.add("hahha");
+			}
+			System.out.println(s);
+		}
+		System.out.println(list);
 	}
 }

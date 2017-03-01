@@ -1,0 +1,3 @@
+D:/cwRsync/rsync.exe -avzh --progress --delete --port=11000 --timeout=60 --partial-dir=temp --password-file=/cygdrive/D/cwRsync/local.relaser.rsync.passwd /cygdrive/E/daiyu/dolphin/* local_releaser@192.168.0.7::hy_dolphin_home/code/dolphin/
+D:/cwRsync/rsync.exe -avzh --progress --delete --port=11000 --timeout=60 --partial-dir=temp --password-file=/cygdrive/D/cwRsync/local.relaser.rsync.passwd /cygdrive/E/daiyu/wapframe/* local_releaser@192.168.0.7::hy_dolphin_home/code/wapframe/
+pause

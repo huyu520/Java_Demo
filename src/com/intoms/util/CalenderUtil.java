@@ -97,4 +97,8 @@ public class CalenderUtil {
 		now.set(Calendar.SECOND, 0);
 		return now.getTime();
 	}
+	
+	public static void main(String[] args) {
+		System.err.println(getYestoday());
+	}
 }
