@@ -3,8 +3,6 @@
  */
 package com.intoms.hy.test;
 
-import com.intoms.hy.util.Holder;
-
 /**
  *  CopyRight by 2016 Mfish
  *  All Right Reserved
@@ -14,11 +12,11 @@ import com.intoms.hy.util.Holder;
  */
 public class TestHolder {
 	public static void main(String[] args) {
-		Holder<String> holder = new Holder<>();
-		StringBuilder sb = new StringBuilder();
-		sb.append("123");
-		holder.setValue(sb.toString());
-		
-		System.out.println(holder.getValue());
+//		Holder<String> holder = new Holder<>();
+//		StringBuilder sb = new StringBuilder();
+//		sb.append("123");
+//		holder.setValue(sb.toString());
+//		
+//		System.out.println(holder.getValue());
 	}
 }
