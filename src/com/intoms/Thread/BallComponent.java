@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 import javax.swing.JPanel;
 
+import src.com.intoms.Thread.Ball;
+
 public class BallComponent extends JPanel{
 
 	/**

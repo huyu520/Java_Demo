@@ -11,6 +11,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import src.com.intoms.Thread.Ball;
+
 public class Bounce {
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {

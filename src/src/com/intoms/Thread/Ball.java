@@ -1,4 +1,4 @@
-package com.intoms.Thread;
+package src.com.intoms.Thread;
 
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
