@@ -16,6 +16,7 @@ public class TestExpandArray {
 		//数组扩容的算法
 		int[] array = {1,2,3};
 		array = Arrays.copyOf(array, array.length + 1);
+		System.out.println(Arrays.toString(array));
 		array[array.length - 1] = 4 ;
 		System.out.println(Arrays.toString(array));
 		

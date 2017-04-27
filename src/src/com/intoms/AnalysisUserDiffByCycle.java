@@ -5,7 +5,6 @@ package src.com.intoms;
 /*     */ import java.io.File;
 /*     */ import java.io.FileReader;
 /*     */ import java.io.IOException;
-/*     */ import java.io.PrintStream;
 /*     */ import java.text.SimpleDateFormat;
 /*     */ import java.util.ArrayList;
 /*     */ import java.util.Calendar;
@@ -126,7 +125,7 @@ package src.com.intoms;
 /*     */         {
 /* 123 */           br.close();
 /*     */         }
-/*     */         catch (IOException e)
+/*     */         catch (IOException e1)
 /*     */         {
 /* 125 */           System.err.println("ERROR:close file[" + fileName + "] fail!" + e.getMessage());
 /*     */         }

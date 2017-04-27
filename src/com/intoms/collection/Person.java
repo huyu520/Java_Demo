@@ -31,4 +31,8 @@ public class Person implements Comparable<Person>{
 		return this.getId()-o.getId();
 	}
 	
+	@Override
+	public String toString() {
+		return this.getName() + "|" + this.getId() ;
+	}
 }

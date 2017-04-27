@@ -3,6 +3,8 @@
  */
 package com.intoms.des;
 
+import java.io.UnsupportedEncodingException;
+
 import org.bouncycastle.util.encoders.Hex;
 
 import com.intoms.util.crypt.DESCoder;
@@ -33,5 +35,12 @@ public class TestDes {
 	
 	public static void main(String[] args)  {
 		System.out.println(Hex.decode("361643f832a0fde2db46f7e893c05932").toString());
+		try {
+			System.out.println(des.encode2Base64("123456"));
+			System.out.println(des.decodeFromBase64("pY3ugyWZrnU=".getBytes()));
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

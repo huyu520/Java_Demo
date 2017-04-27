@@ -27,6 +27,7 @@ public class BigDecimalTest {
 		System.out.println(" 0.05 - 0.01  = "+ (f1.subtract(f2)) );
 		System.out.println(" 0.05 * 0.01  = "+ (f1.multiply(f2)) );
 		System.out.println(" 0.05 / 0.01  = "+ (f1.divide(f2)) );
+//		System.out.println(" 0.05 / 0.01  = "+ (f1.divide(f3)) );
 		
 
 	}

@@ -7,6 +7,7 @@ public class TestArray {
 		int[] array = new int[10];
 		//填充数组
 		Arrays.fill(array, 5);
+		System.out.println(Arrays.toString(array));
 		for (int i : array) {
 			System.out.println(array[i]);
 		}

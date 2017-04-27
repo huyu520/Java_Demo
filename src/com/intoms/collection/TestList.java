@@ -3,20 +3,19 @@ package com.intoms.collection;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
 
 public class TestList {
 
 	public static void main(String[] args) {
-		testMap();
+//		testMap();
+		test1();
 	}
 	
-	public void test1(){
+	public static void test1(){
 		List<Person> li = new ArrayList<Person>();
 		li.add(new Person("huyu", 1));
 		li.add(new Person("timo", 2));
@@ -24,7 +23,10 @@ public class TestList {
 		li.add(new Person("sha", 4));
 		
 		Collections.sort(li);
+		System.out.println(li);
 		Collections.reverse(li);
+		System.out.println(li);
+//		System.out.println(li.subList(0, li.size() - 2));
 		Iterator<Person> it = li.iterator();
 		
 		int rank = 1 ;
