@@ -16,7 +16,6 @@ import com.google.gson.Gson;
  * @author hy Create on 2017年2月14日下午2:25:07
  */
 public class Test {
-	
 	@org.junit.Test
 	public void testGson() {
 		Map<String, String> map = null;
@@ -32,6 +31,7 @@ public class Test {
 		map.put("1253", "abcd");
 		map.put("12323", "abcd");
 		Gson gson = new Gson();
+		
 		
 		List<String> list = new ArrayList<>();
 		for(int i=0 ;i < 10 ; i++){
